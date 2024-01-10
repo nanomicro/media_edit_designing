@@ -1,0 +1,12 @@
+/* HTML要素とbody要素にフルスクリーンの高さとマージンを設定します */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+/* 背景画像をbodyに設定し、画面一面に広げます */
+  img.clickableImage  {
+width: 100%;
+  }
+  
+/* フルスクリーンの背景画像を設定します */
