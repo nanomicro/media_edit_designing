@@ -5,7 +5,7 @@ html, body {
   }
   
 /* 背景画像をbodyに設定し、画面一面に広げます */
-  img.clickableImage  {
+  img  {
 width: 100%;
   }
   
