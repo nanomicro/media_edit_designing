@@ -23,7 +23,7 @@ imageElement.addEventListener('click', function() {
     singleClickTimer = setTimeout(function() {
       console.log('Single click executed.');
       singleClickTimer = null; // タイマーをリセット
-    }, 200);
+    }, 500);
   } else {
     // タイマーが設定されている場合、ダブルクリックとして扱う
     clearTimeout(singleClickTimer); // タイマーをクリア
@@ -53,7 +53,7 @@ export default function App() {
 
       // シングルクリック時に実行したい処理
       console.log("single click");
-    }, 200);
+    }, 500);
   }, []);
 
   const onDoubleClick = useCallback<MouseEventHandler<HTMLButtonElement>>(

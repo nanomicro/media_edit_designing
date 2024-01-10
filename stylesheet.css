@@ -7,18 +7,26 @@ html, body {
 .background {
     width: 100%;
 }
-  
+
+
+.dasa {
+    width: 100%;
+}
 /* 背景画像をbodyに設定し、画面一面に広げます */
 img.clickableImage  {
-width: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 0 ;
   }
   
 img.jama {
-    width: 20%
-    position: fixed;
+    width: 100px;
+    position: absolute;
+    position: sticky;
     top: 0;
-    left: 25px;
-}
+    left: 0;
+    z-index: 1 ;
+ }
 
 
 
