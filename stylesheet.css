@@ -3,10 +3,32 @@ html, body {
     height: 100%;
     margin: 0;
   }
+
+.background {
+    width: 100%;
+}
   
 /* 背景画像をbodyに設定し、画面一面に広げます */
-  img  {
+img.clickableImage  {
 width: 100%;
   }
   
-/* フルスクリーンの背景画像を設定します */
+img.jama {
+    width: 20%
+    position: fixed;
+    top: 0;
+    left: 25px;
+}
+
+
+
+#result {
+    margin-top: 20px;
+    font-style: italic;
+  }
+
+  #result {
+    color:red;
+    font-weight: bold;
+    margin-top: 10px;
+  }

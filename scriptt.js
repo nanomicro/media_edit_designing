@@ -1,7 +1,7 @@
 var arr = [];
   
 //get data from google sheet
-fetch("https://script.google.com/macros/s/AKfycbztp1fAxeRUbhQH5K3ptdVjz0AGx1iWAIiydftGCZtB7v_HgNTLUR_k9CsXXIPNiEGP/exec",{
+fetch("https://script.google.com/macros/s/AKfycbwxbliucJ8oT3c3z8H-RaUVxH2pAMBkI8tGiuRcJTCl_EQ_7bJRGMjQka1nsd_SQRN8kg/exec",{
   method: "GET"
 }).then(res => res.json()).then(datas => {
   datas.myalldata.map((data,index) => {
